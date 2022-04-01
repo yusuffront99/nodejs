@@ -30,9 +30,8 @@ const userSatu = getUser(1, (hasil) => {
     console.log(hasil);
 });
 
-const userDua = getUser(2, (hasil) => {
-    console.log(hasil)
-});
 
 const say = "hello world";
 console.log(say);
+
+module.exports = getUser;
